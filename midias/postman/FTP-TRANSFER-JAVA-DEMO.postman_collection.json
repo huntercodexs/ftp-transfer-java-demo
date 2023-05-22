@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "3d112371-2c1b-44d5-a037-104249a5425b",
+		"name": "FTP-TRANSFER-JAVA-DEMO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17383820"
+	},
+	"item": [
+		{
+			"name": "SFTP",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:31303/ftp-transfer-java-demo/api/dispatcher/sftp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31303",
+					"path": [
+						"ftp-transfer-java-demo",
+						"api",
+						"dispatcher",
+						"sftp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PROFTPD",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:31303/ftp-transfer-java-demo/api/dispatcher/proftpd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31303",
+					"path": [
+						"ftp-transfer-java-demo",
+						"api",
+						"dispatcher",
+						"proftpd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "APACHEFTP",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:31303/ftp-transfer-java-demo/api/dispatcher/apacheftp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31303",
+					"path": [
+						"ftp-transfer-java-demo",
+						"api",
+						"dispatcher",
+						"apacheftp"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
